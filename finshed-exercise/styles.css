@@ -54,7 +54,7 @@ body {
 }
 
 
-/* Media Queries */
+/* Media Queries Go Here */
 
 @media screen and (max-width: 600px) {
     .container {
@@ -67,14 +67,14 @@ body {
         align-items: center;
         
     }
-
     .group1 {
         order: 1;
     }
     .group2 {
         justify-content: space-between;
     }
-
+    
+    /* individual box stylings */
     .red{
         align-self: flex-start;
     }
@@ -84,7 +84,6 @@ body {
     .yellow {
         order: 1;
     }
-
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
